@@ -1,17 +1,40 @@
-## Objetivo
+# 🛒 CarrinhoShopee
 
-Criar um carrinho de compras baseado no carrinho de compras da shopee, onde o carrinho armazene itens e faça o calculo de sub-itens automaticamente.
+Projeto de prática em **Node.js** com foco em lógica de programação e construção de um carrinho de compras, inspirado no modelo da Shopee.  
 
-//  dominio da aplicação: carrinho de comrpas.
+🎯 **Objetivo:**  
+Simular o comportamento de um carrinho onde é possível:
 
-// Padrão: ESM
+- ➕ Adicionar itens  
+- ❌ Excluir itens  
+- ➖ Remover unidade de um item  
+- 🧮 Calcular o total automaticamente  
 
-// Entidades representadas
+---
 
-//--> Carrinho
-        // TODO: Modulo voltado as funcionalidades do carrinho.
-        // Path: src/services/cart.js
-        // Funções do carrinho: Adicionar item, Excluir item, Remover um item, Calcular o total.
-//--> Itens
-        // TODO: Modulo voltado as funcionalidades do item.
-        // Path: src/services/item.js
+## 📁 Estrutura
+
+**🧭 Domínio:** Carrinho de compras  
+**📦 Padrão de módulo:** ECMAScript Modules (ESM)
+
+### 🧱 Entidades
+
+- **🛒 Carrinho** (`src/services/cart.js`)  
+  Gerencia as funcionalidades principais do carrinho.
+
+- **📦 Item** (`src/services/item.js`)  
+  Representa os itens adicionados ao carrinho.
+
+---
+
+## 🚧 Possíveis Melhorias Futuras
+
+- 💾 Persistência de dados (ex: banco de dados ou arquivos locais)  
+- 🖥️ Interface de usuário (CLI ou Web)  
+- ✅ Validações de entrada  
+- 🧪 Testes automatizados  
+- 🧠 Aplicação de princípios SOLID e padrões de projeto  
+
+---
+
+🛠️ Desenvolvido para fins educacionais e prática com Node.js.
